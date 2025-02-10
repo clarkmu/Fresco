@@ -2,7 +2,7 @@ services:
   fresco:
     env_file:
       - .env
-    image: "ghcr.io/complexdatacollective/fresco:feature-docker"
+    image: "ghcr.io/complexdatacollective/fresco:latest"
     depends_on:
       postgres:
         condition: service_healthy
